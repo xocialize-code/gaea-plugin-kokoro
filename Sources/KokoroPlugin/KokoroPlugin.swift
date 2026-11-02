@@ -250,7 +250,7 @@ let kokoroOffer = PluginManifest.Offer(
     })
 
 public let kokoroPlugin = GaeaPluginDefinition(
-    id: "com.xocialize.gaea.kokoro", version: "0.1.0", minGaea: "0.9.0", team: "CFZS6RXUCP",
+    id: "com.xocialize.gaea.kokoro", version: "0.1.1", minGaea: "0.9.0", team: "CFZS6RXUCP",
     repo: "https://github.com/xocialize-code/gaea-plugin-kokoro", title: "Kokoro",
     summary: "Kokoro-82M: fast English text-to-speech, 28 preset voices, streamed sentence by sentence (MES audio.speak).",
     license: "Apache-2.0", executable: "gaea-kokoro-worker",
