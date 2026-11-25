@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         kitPath.map { .package(path: $0) }
             ?? .package(url: "https://github.com/xocialize-code/gaea-plugin-kit.git", from: "0.14.1"),
-        .package(url: "https://github.com/xocialize/mlx-kokoro-tts-swift.git", exact: "0.5.0"),
+        .package(url: "https://github.com/xocialize/mlx-kokoro-tts-swift.git", exact: "0.6.0"),
         // mlx-engine-swift 0.82.1, the first on the fleet's mlx-swift 0.33.1.
         .package(url: "https://github.com/xocialize/mlx-engine-swift.git", from: "0.82.1"),
         // MLX's random state: Kokoro's sine source draws noise from it, so a seeded run seeds it first. The fleet's
